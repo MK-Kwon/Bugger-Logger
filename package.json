@@ -1,0 +1,24 @@
+{
+  "name": "bugger-logger",
+  "version": "1.0.0",
+  "description": "A responsive, RESTful Node.js / Express app using MySQL as a database and Handlebarsto serve HTML.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MK-Kwon/Bugger-Logger.git"
+  },
+  "author": "Min Kyung Kwon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MK-Kwon/Bugger-Logger/issues"
+  },
+  "homepage": "https://github.com/MK-Kwon/Bugger-Logger#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-handlebars": "^5.1.0",
+    "mysql": "^2.18.1"
+  }
+}
