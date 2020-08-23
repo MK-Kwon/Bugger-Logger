@@ -2,7 +2,7 @@
   "name": "bugger-logger",
   "version": "1.0.0",
   "description": "A responsive, RESTful Node.js / Express app using MySQL as a database and Handlebarsto serve HTML.",
-  "main": "index.js",
+  "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
