@@ -14,8 +14,8 @@ $(function() {
         });
     });
 
-    $(".devour").on("click", function(){
-        let id = $(this).data("id");
+    $(".devour_btn").on("click", function(){
+        let id = $(this).data("burgerid");
         $.ajax("/api/burger/" + id, {
             type: "PUT",
             data: {
@@ -31,7 +31,7 @@ $(function() {
         let id = $(this).data("id");
         $.ajax({
             type: "DELETE",
-            url: "/api/burgers/" + id
+            url: "/api/burger/" + id
         }).then(function() {
             location.reload();
         });

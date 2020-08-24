@@ -1,4 +1,82 @@
 body {
-    background-image: url("https://cdn.hipwallpaper.com/m/35/46/1XEPMn.jpg");
+    background-image: url("http://drive.google.com/uc?id=1NhM6jO4iK8iAS5lTXl7xgTBXCxwc8oZy");
     background-size: cover;
+}
+
+p {
+    text-align: center;
+    margin: 0 auto;
+}
+
+.title {
+    margin: 1px auto;
+    text-align: center;
+    font-size: 24px;
+}
+
+.burgerContainer {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.514);
+    height: 450px;
+    border-radius: 20px;
+    padding: 20px;
+    margin: 10px auto;
+    border: 1px rgb(197, 197, 197) solid;
+}
+
+.burgerImage {
+    width: 230px;
+    height: 230px;
+    border-radius: 20px;
+    margin: 5px auto;
+    display: flex;
+}
+
+
+.burgerQueue {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.514);
+    display: flex;
+    width: 50%;
+    font-size: 20px;
+    margin: 3px;
+    letter-spacing: 3px;
+    border-radius: 10px;
+}
+
+input:hover{
+    box-shadow: 0px 0px 5px white;
+}
+
+.burgerDevoured {
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.514);
+    display: flex;
+    width: 50%;
+    font-size: 20px;
+    margin: 3px;
+    letter-spacing: 3px;
+    border-radius: 10px;
+}
+
+ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.btn {
+    border-radius: 12px;
+}
+
+.btn:hover{
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+
+footer{
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    height: 20px;
+    text-align: center;
+    background-color: white;
 }

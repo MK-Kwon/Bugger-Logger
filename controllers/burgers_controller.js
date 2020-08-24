@@ -18,34 +18,28 @@ router.get("/", function (req, res) {
 router.post("/api/burger", function (req, res) {
 
     burger.insertOne(req.body.burgerName, function (data) {
-        res.redirect("/");
+        res.json({ id: data.insertId });
     });
 });
 
 // PUT (update) devoured boolean for the corresponding ID
 router.put("/api/burger/:id", function (req, res) {
-    let condition = req.params.id;
-    console.log(condition);
-    burger.updateOne(
-        {
-            devoured: req.body.devoured
-        },
-        condition, function (result) {
-            if (result.changeRows === 0) {
-                return res.status(404).end();
-            } else {
-                res.status(200).end();
-            }
-        });
-    }); 
+    burger.updateOne(req.params.id, true, function (data) {
+        if (data.changedRows === 0) {
+            return res.status(404).end();
+        }
+
+        res.status(200).end();
+    });
+});
 
 // DELETE selected burger by ID
-router.delete("/api/burgers/:id", function(req, res){
+router.delete("/api/burger/:id", function (req, res) {
     let condition = "id = " + req.params.id;
-    burger.deleteOne(condition, function(result){
-        if(result.affectedRows === 0){
+    burger.deleteOne(condition, function (result) {
+        if (result.affectedRows === 0) {
             return res.status(404).end();
-        }else {
+        } else {
             res.status(200).end();
         }
     });

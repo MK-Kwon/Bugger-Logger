@@ -30,13 +30,16 @@ const orm = {
         });
 },
 
-    deleteOne: function(burgers, id, cb) {
-        let queryString = `DELETE FROM burgers WHERE id = ${id}`;
-        connection.query(queryString, function(err, result){
-            if(err) throw err;
-            cb(result);
-        });
-    }
+deleteOne: function(table, condition, cb) {
+    console.log("deleteOne function")
+    let queryString = "DELETE FROM " + table + " WHERE " + condition;
+    connection.query(queryString, function(err, result){
+        if (err) {
+            cb(err);
+        }
+        cb(result);
+    });
+}
 };
 
 module.exports = orm;
