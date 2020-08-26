@@ -51,7 +51,7 @@ node server.js in the command line
 👤 **Min Kyung Kwon**
 
 * Github: [@MK-Kwon](https://github.com/MK-Kwon)
-* LinkedIn: [@www.linkedin.com\/in\/min-kyung-kwon](www.linkedin.com/in/min-kyung-kwon)
+* LinkedIn: (www.linkedin.com/in/min-kyung-kwon)
 
 ## 🤝 Contributing
 
