@@ -16,11 +16,13 @@
 
 ### 🏠 [Homepage](https://mk-bugger.herokuapp.com/)
 
-### ✨ [Demo] <img src="https://thumbs.gfycat.com/ImpossibleWelloffBear-size_restricted.gif" width ="800">
-
 ## Screen Shots 
 
 <img src="http://drive.google.com/uc?id=1s8HhtjpEMrSfZSyPOLTjEHvxUk7-zObE" width ="800">
+
+### ✨ [Demo] 
+
+<img src="https://thumbs.gfycat.com/ImpossibleWelloffBear-size_restricted.gif" width ="800">
 
 ## Install
 
@@ -41,7 +43,7 @@ MySQL, Handlebars, Express, Node.js, JavaScript, jQuery, CSS, Bootstrap, HTML, F
 ## Usage
 
 ```sh
-node server in the command line
+node server.js in the command line
 ```
 
 ## Author
@@ -49,7 +51,7 @@ node server in the command line
 👤 **Min Kyung Kwon**
 
 * Github: [@MK-Kwon](https://github.com/MK-Kwon)
-* LinkedIn: [@www.linkedin.com\/in\/min-kyung-kwon](https://linkedin.com/in/www.linkedin.com\/in\/min-kyung-kwon)
+* LinkedIn: [@www.linkedin.com\/in\/min-kyung-kwon](www.linkedin.com/in/min-kyung-kwon)
 
 ## 🤝 Contributing
 
