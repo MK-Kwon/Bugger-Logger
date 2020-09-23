@@ -20,6 +20,9 @@
 
 <img src="http://drive.google.com/uc?id=1s8HhtjpEMrSfZSyPOLTjEHvxUk7-zObE" width ="800">
 
+## Deployed App
+https://mk-bugger.herokuapp.com/ 
+
 ### ✨ [Demo] 
 
 <img src="https://thumbs.gfycat.com/ImpossibleWelloffBear-size_restricted.gif" width ="800">
