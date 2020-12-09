@@ -18,7 +18,7 @@
 
 ## Screen Shots 
 
-<img src="http://drive.google.com/uc?id=1s8HhtjpEMrSfZSyPOLTjEHvxUk7-zObE" width ="800">
+<img src="http://drive.google.com/uc?id=1s8HhtjpEMrSfZSyPOLTjEHvxUk7-zObE" width ="100%" height="auto">
 
 ## Deployed App
 https://mk-bugger.herokuapp.com/ 
