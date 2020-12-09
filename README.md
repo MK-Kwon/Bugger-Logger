@@ -25,7 +25,7 @@ https://mk-bugger.herokuapp.com/
 
 ### ✨ [Demo] 
 
-<img src="https://thumbs.gfycat.com/ImpossibleWelloffBear-size_restricted.gif" width ="100% height="auto">
+<img src="https://thumbs.gfycat.com/ImpossibleWelloffBear-size_restricted.gif" width ="100%" height="auto">
 
 ## Install
 
